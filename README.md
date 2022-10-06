@@ -21,6 +21,6 @@ Each instance contains the following data:
     - All demand is satisfied at the end of the scheduling horizon.
     - This value is continuous. For example, if the total scheduling horizon is 36hrs, the total demand is 0.75 times this value.
     
-The naming convention for each instance is "random_instance_*i*_*j*_*k*a.gdx," where *i*, *j*, and *k* indicate the number of tasks, units, and materials, respectively.
+The naming convention for each instance is "random_instance_i_j_ka.gdx," where *i*, *j*, and *k* indicate the number of tasks, units, and materials, respectively.
 
 We also include an [R](https://cran.r-project.org/) script titled "convert_gdx_to_xlsx.R" that can be used to convert an individual GDX instance file to a Microsoft Excel file, if desired. An example of using the script can be found within.
